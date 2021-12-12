@@ -1,0 +1,127 @@
+@media screen and (min-width: 560px) {
+    nav {
+      padding: 30px;
+    }
+    
+    .intro {
+        max-width: 560px;
+    }
+
+    .avatar {
+        width: 40%;
+    }
+
+    /* SKILL SeCTIon */
+
+    .icon {
+        width: 10%;
+      }
+
+    .tool {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    /* PRoJEcTS SeCTIon */
+
+    .samples {
+        justify-content: space-around;
+    } 
+
+    .card {
+        max-width: 35%;
+        margin: 30px auto;
+    }
+
+    /* Call To Action Section */
+
+    .cta {
+        background-color: #150052;
+        color: #fff;
+        max-width: 60%;
+        margin: 50px auto;
+        padding: 50px ;
+        border-radius: 20px;
+    }
+
+    .cta > h2 {
+        color: #fff;
+        font-size: 1.7rem;
+    }
+
+    .cta-btn {
+        background-color: #fff;
+        color: #150052;
+        width: 10rem;
+        font-weight: bolder;
+        margin-top: 50px;
+        transition: all .35s;
+    }
+
+    .cta-btn:hover {
+        background-color: #150052;
+        color: #fff;
+        border: 3px solid #fff;
+    }
+
+    .social img{
+        width: 30%;
+        color: #5218FA;
+      }
+
+      /********************
+      ConTAcT PAGE
+       *******************/
+
+       .headline {
+            max-width: 560px;
+       }
+   
+}
+
+@media screen and (min-width: 780px) {
+    
+    /* SKILL SeCTIon */
+    
+    .skill {
+        margin-left: auto;
+        margin-right: auto;
+        
+    } 
+      
+      
+      .background {
+        width: 90%;
+        height: 100%;
+        margin: auto;
+        display: block;
+    }
+
+    /* PROFIlINg SeCTIon */
+
+    .bio {
+        flex-direction: row-reverse;
+        background-color:#5218FA;
+        margin-top: 80px;
+    }
+
+    .content {
+        background-color: #5218FA ;
+        text-align: justify;
+        color: #fff;
+        width: 40%;
+        margin: auto;
+    }
+    
+    
+    /* PRoJEcTS SeCTIon */
+
+    .samples {
+        justify-content: flex-start;
+    } 
+    
+       .card {
+        max-width: 25%;
+        margin: 30px auto;
+    }
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Contact page for Nelson Elaye - Web developer">
+    <title>Contact Nelson Elaye</title>
+    <link rel="icon" type="image/png" sizes="32×32" href="code-design.png">
+     <link rel="stylesheet" href="styles.css" type="text/css"  />
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="contact.css" type="text/css"  />
+  </head>
+  <body>
+    <nav>
+        <div class="main-nav">
+            <h1><a href="index.html" class="logo">Nelson Elaye</a> </h1>
+            <span> <a href="contact.html" class="btn">Let's Chat</a></span>
+        </div>
+        <div class="title">
+            <span>Web Developer</span>
+        </div>
+    </nav>
+    
+    	<div class="thankyou">
+    	  <img class="check" src="checkmark.png" alt="Green check in a circle" />
+    		<h2>Thank You.</h2>
+    		<span>Your message has been received. You will receive a mail shortly.</span>
+    	</div>
+
+    <div class="contact-detail">
+    
+        <div class="headline">
+            <h2>I'm excited to learn about your project. Let's get started.</h2>
+        </div>
+          
+        <form action="" method="get" id="contactform">
+            
+            <label for="name">Name:</label> <br>
+            <input type="text" name="name" id="name" required/> <br />
+            
+            <label for="email">Email:</label> <br>
+            <input type="email" name="email" id="email" required > <br />
+            
+            <label for="phone">Phone Number:</label> <br/>
+            <input type="number" id="phone" name="phone" required> <br/>
+           
+           <label for="message">Details</label> <br>
+           <textarea name="message" id="message" cols="30" rows="10" placeholder='What are your goals and what do you want to build...' required></textarea>
+        
+            <button type="submit" id="submit" >Submit</button>
+        </form>
+    </div>
+    
+    
+    
+    <footer>
+        <ul class="social">
+            <li>
+                <a href="https://www.linkedin.com/in/elayenelson">
+                <img src="linkedin.svg" alt="Connect on LinkedIn " /></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/nelson_elaye?t=Xed_e8eBiceMpx8KY7Sfgg&s=09">
+                <img src="twitter.svg" alt="Follow on Twitter " /></a>
+            </li>
+        </ul>
+      <p>&copy; Nelson Elaye. 2021</p>
+    </footer>
+
+
+<script type="module" src="https://www.gstatic.com/firebasejs/9.5.0/firebase-app.js" type="text/javascript" > </script>
+
+<script type="module" src="https://www.gstatic.com/firebasejs/9.5.0/firebase-database.js" type="text/javascript" > </script>
+
+    <script  src="main.js" type="text/javascript" ></script>
+ 
+  </body>
+</html>

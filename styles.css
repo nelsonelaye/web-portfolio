@@ -1,0 +1,293 @@
+html {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding:0;
+  font-family:'Noto Sans', sans-serif;
+  font-size: 1.15rem;
+}
+
+img{
+  width: 100%;
+}
+/* Header Styling */
+
+nav {
+  background-color: #fff;
+  padding: 20px ;
+  box-shadow: 0 5px 3px #f2f2f2;
+ 
+}
+  
+.main-nav {
+  display: flex;
+  background-color: #fff;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+a {
+ text-decoration: none; 
+}
+
+h1 {
+  margin: 0;
+}
+
+.logo {
+  color: #5218FA;
+ 
+}
+
+.btn {
+  border: 3px solid #5218FA;
+  border-radius: 5px ;
+  padding: 10px;
+  background-color: #fff;
+  color: #5218FA ;
+  font-weight: 500;
+  transition: all .5s;
+}
+
+.btn:hover {
+  background-color: #5218FA;
+  color: #fff;
+  cursor: pointer;
+}
+
+.title {
+  font-size: .75em;
+  margin-left: 30px;
+}
+
+main {
+  text-align: center;
+}
+
+/* Introduction */
+
+
+.intro {
+  width: 80%;
+  margin: 50px auto;
+}
+
+.avatar {
+  display: block;
+  border: 3px solid  #5218FA;
+  border-radius: 100%;
+  margin: 30px auto;
+  width: 70%;
+}
+
+.background {
+  width: 70%;
+}
+
+/* Profile Section*/
+
+.bio {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+  background-color: #5218FA;
+  text-align: left;
+  padding: 20px 50px 70px;
+  color: #fff;
+  margin: auto;
+}
+
+/* Skills */
+
+.skill {
+  max-width:740px;
+  margin: -50px 10px 30px;
+  padding: 30px 30px 70px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #f2f2f2;
+  position: relative;
+  z-index: 5;
+}
+
+.icon {
+  width: 20%;
+}
+
+.tool {
+    display: flex;
+    flex-direction: column;
+}
+
+.purple-text {
+  color: #5218FA;
+  margin-bottom: 8px;
+  padding-bottom: 0;
+}
+
+/* Portfolio Section */
+
+.project {
+    margin-top: 50px;
+}
+h2 {
+  margin-bottom: 0;
+  padding-bottom: 5px;
+}
+
+.faint-text {
+  color: rgba(0,0,0, .4);
+}
+
+.samples {
+  padding: 20px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+/* Portfolio - Projects Styles */
+
+.card {
+  font-size: 1.35rem;
+  font-weight: 500;
+  color: #fff;
+  padding: 2rem;
+  margin: auto auto 30px;
+  border-radius: 10px;
+  /* max-width: 45%; */
+  transition: all .3s ease-in;
+}
+
+.card p {
+  opacity: 0;
+  transition: all .35s ease-in;
+}
+
+.view {
+  border: 3px solid #5218FA;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+  color: #5218FA;
+  transition: all .35s ;
+}
+
+.card1 {
+  background: url('lekki-city.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card2 {
+  background: url('stat.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card3 {
+  background: url('best-city.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card:hover {
+  background:#150052 ;
+}
+
+.card:hover > p {
+  opacity: 1;
+}
+
+.view:hover {
+  color: #fff;
+}
+
+/* Call To Action Section */
+
+.cta {
+  background-color: #fff;
+  text-align: left;
+  max-width: 560px;
+  margin: 20px  ;
+  padding: 20px;
+  border: 1px solid #f2f2f2;
+  border-radius: 10px;
+  box-sizing: content-box;
+}
+
+.cta > h2 {
+  color: #150052;
+  text-transform:  capitalize;
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.cta-btn {
+  /*border: 5px solid #5218FA;*/
+  border-radius: 10px;
+  color: #fff;
+  background-color: #150052;
+  border: 2px solid #150052;
+  font-weight: 500;
+  font-size: 1.35rem;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 40%;
+  transition: all .35s;
+}
+
+.cta-btn:hover {
+  background-color: #fff;
+  color: #150052;
+  border: 2px solid #150052;
+}
+
+
+/* FoOter Styling */
+
+footer {
+  text-align: center;
+  background: #5218FA;
+  color: #fff;
+  font-size: .75rem;
+  padding: 30px ;
+  margin-top: 30px;
+}
+
+.social  {
+  list-style-type: none;
+  margin: 0 0 10px;
+  padding: 0;
+  /*text-align: center;*/
+}
+
+.social li {
+    display: inline-block;
+    margin: 0 10px 0;
+    transition: all .5s;
+}
+
+.social li a {
+    padding: 10px;
+}
+
+.social li img {
+  width:1.5em;
+}
+
